@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color:  #150185;
+	font-size: 95%;
+	color: #fff;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+a:link, a:visited {
+	color: #170D6C;
+	text-decoration: underline;
+
+}
+
+a:hover, a:active {
+	color: #B91417;
+	text-decoration: none;
+}
+
+form input, form textarea, form submit {
+	border: 1px solid #150185;
+	background-color: #D7D5CE;
+
+}
+
+#container {
+	width: 980px;
+	background: #fff url(images/wrap.png) repeat-y;
+	color: #000;
+	margin: 0 auto 70px auto;
+	padding: 0;
+	
+}
+
+#header {
+	width: 980px;
+	height: 245px;
+	background: transparent url(images/top.png) no-repeat;
+
+}
+
+#header h1 {
+	color: #fff;
+	font-size: 300%;
+	letter-spacing:3px;
+	padding: 20px 10px;
+	
+}
+
+#header h2 {
+	font-style: italic;
+	padding: 20px 10px;
+	width: 300px;
+	font-size: 110%;
+}
+
+#content {
+	float: left;
+	padding: 0 10px;
+	width: 500px;
+
+}
+#content h1 {
+	padding: 0 10px 10px 0;
+	color: #170D6C;
+	font-size: 140%;
+
+}
+
+#content p {
+	padding: 0 10px 10px 0;
+
+}
+#sidebar {
+	position: absolute;
+	left: 1100px;
+	padding: 1 10px;
+	width: 160px;
+	background-color: #D7D5CE;
+	border: 1px solid #150185;
+
+}
+
+#sidebar h2 {
+	color: #B91417;
+	font-size: 120%;
+	padding: 0 10px 1px 0;
+	margin-bottom: 9px;
+	border-bottom: 1px dashed #B91417;
+
+}
+
+#sidebar2 {
+	float: left;
+	padding: 0 200px;
+	width: 200px;
+	
+}
+#sidebar2 h2 {
+	color: #B91417;
+	font-size: 120%;
+	padding: 0 10px 1px 0;
+	margin-bottom: 9px;
+	border-bottom: 1px dashed #B91417;
+
+
+}
+
+.sidebar ul, .sidebar ol { 
+	margin: 0 0 1em 0; 
+	font-size: .80em;
+}
+
+.sidebar ul { 
+	list-style-type: none;
+}
+
+.sidebar li { 
+	margin: 0 0 0.6em 0; 
+}
+
+.sidebar ul li ul, .sidebar ul li ol, .sidebar ol li ul, .sidebar ol li ol { 
+	margin: 0.5em 0 0.5em 5px; 
+}
+
+#footer {
+	width: 980px;
+	height: 50px;
+	clear: left;
+	background: transparent url(images/bottom.png) no-repeat;
+	
+}
+#footer p {
+	font-size: 85%;
+	text-align: center;
+
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	border: 0;
+}
+
+img.alignright {
+	padding: 5px;
+	border: 0;
+	margin: 10px;
+	display: inline;
+}
+
+img.alignleft {
+	padding: 5px;
+	border: 0;
+	margin: 8px;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}	
