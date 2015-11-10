@@ -1,0 +1,2 @@
+# Skolas-majaslapa
+majaslapa
